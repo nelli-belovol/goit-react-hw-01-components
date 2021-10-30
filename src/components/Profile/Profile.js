@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 import s from './Profile.module.scss';
-console.log(s);
 
 export function Profile({ name, tag, location, avatar, stats }) {
   return (
