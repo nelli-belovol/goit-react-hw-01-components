@@ -64,9 +64,9 @@
   width: 80px;
   padding: 20px;
 
-  // &:not(:last-child) {
-  //   border-right: yellow;
-  // }
+  &:not(:last-child) {
+    border-right: 1px solid rgb(179, 181, 183);
+  }
 }
 
 .quantity {

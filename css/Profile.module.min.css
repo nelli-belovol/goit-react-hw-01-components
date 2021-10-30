@@ -58,6 +58,9 @@
   width: 80px;
   padding: 20px;
 }
+.stats__item:not(:last-child) {
+  border-right: 1px solid #b3b5b7;
+}
 .quantity {
   color: var(--myMainFontColor);
   font-weight: 700;
